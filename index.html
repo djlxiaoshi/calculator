@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+ <html>
+<head> 
+<meta charset="utf-8" /> 
+<title>DJL箫氏小项目之计算器</title> 
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script language="javascript"> 
+//此处插入上面的js代码 
+</script> 
+</head> 
+<body> 
+	<div class="calculator"> 
+		<div class="calcu-head"><a class="imyeah" href="http://http://djlxs.herokuapp.com//" target="_blank">DJL箫氏</a><h6>DJL箫氏小案例--计算器</h6>
+		</div> 
+		
+			<div id="calcu-screen"> 
+				<div id="result" class="screen"></div>
+			</div> 
+			<div id="calcu-btn"> 
+				<ul> <!--配置按钮--> 
+					<li onclick="inputNum(7)">7</li> 
+					<li onclick="inputNum(8)">8</li> 
+					<li onclick="inputNum(9)">9</li> 
+					<li class="tool delete" onclick="del()">←</li> 
+					<li class="tool clear" onclick="clearZero()">C</li> 
+					<li onclick="inputNum(4)">4</li> 
+					<li onclick="inputNum(5)">5</li> 
+					<li onclick="inputNum(6)">6</li> 
+					<li class="tool" onclick="operate('*')">×</li> 
+					<li class="tool" onclick="operate('/')">÷</li> 
+					<li onclick="inputNum(1)">1</li> 
+					<li onclick="inputNum(2)">2</li> 
+					<li onclick="inputNum(3)">3</li> 
+					<li class="tool" onclick="operate('+')">+</li> 
+					<li class="tool" onclick="operate('-')">-</li> 
+					<li onclick="inputNum(0)">0</li> 
+					
+					<li onclick="dot()" class="dot">.</li> 
+					<li class="tool remainder" onclick="operate('%')">取余</li> 
+					<li class="tool equal" onclick="equal()">=</li> 
+				</ul> 
+				</div> 
+		<div class ="calcu-foot"> 
+			<span class="welcome">欢迎使用计算器！<a href="http://www.lovekeke.com/" target="_blank">github地址</a>
+			</span> 
+		</div> 
+	
+	</div> 
+<script type="text/javascript" src="js/main.js"></script>
+</body> 
+</html> 
